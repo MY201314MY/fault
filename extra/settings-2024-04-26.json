@@ -1,0 +1,53 @@
+{
+    "nrf-connect.welcome.showOnStartup": true,
+    "idf.espIdfPath": "/home/pi/espressif/esp-adf/esp-idf",
+    "idf.pythonBinPath": "/home/pi/.espressif/python_env/idf4.4_py3.10_env/bin/python",
+    "idf.toolsPath": "/home/pi/.espressif",
+    "idf.customExtraPaths": "/home/pi/.espressif/tools/xtensa-esp-elf-gdb/11.2_20220823/xtensa-esp-elf-gdb/bin:/home/pi/.espressif/tools/riscv32-esp-elf-gdb/11.2_20220823/riscv32-esp-elf-gdb/bin:/home/pi/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32-elf/bin:/home/pi/.espressif/tools/xtensa-esp32s2-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32s2-elf/bin:/home/pi/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32s3-elf/bin:/home/pi/.espressif/tools/riscv32-esp-elf/esp-2021r2-patch5-8.4.0/riscv32-esp-elf/bin:/home/pi/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/home/pi/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/bin:/home/pi/.espressif/tools/ninja/1.10.2",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/home/pi/.espressif/tools/openocd-esp32/v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts"
+    },
+    "idf.gitPath": "/usr/bin/git",
+    "workbench.editorAssociations": {
+        "*.bin": "hexEditor.hexedit",
+        "*.dot": "default"
+    },
+    "explorer.confirmDelete": false,
+    "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.2.0}",
+    "nrf-connect.topdir": "${nrf-connect.sdk:2.2.0}",
+    "cortex-debug.openocdPath": "/home/pi/.bin/zephyr-sdk-0.16.1/sysroots/x86_64-pokysdk-linux/usr/bin/openocd",
+    "cortex-debug.liveWatchRefreshRate": 1000,
+    "cortex-debug.gdbPath": "/home/pi/.bin/zephyr-sdk-0.16.1/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
+    "cortex-debug.armToolchainPath": "/home/pi/.bin/zephyr-sdk-0.16.1/arm-zephyr-eabi/bin/",
+    "cortex-debug.JLinkGDBServerPath": "/usr/bin/JLinkGDBServer",
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "branch-create:command"
+    ],
+    "C_Cpp.intelliSenseEngine": "default",
+    "editor.indentSize": "tabSize",
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "settingsSync.ignoredExtensions": [
+        
+
+    ],
+    "nrf-connect.enableTelemetry": true,
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "debug.console.fontSize": 18,
+    "scm.inputFontSize": 18,
+    "chat.editor.fontSize": 18,
+    "markdown.preview.fontSize": 18,
+    "git.confirmSync": false,
+    "bitbake.loggingLevel": "info",
+    "bitbake.parseOnSave": false,
+    "bitbake.pathToBitbakeFolder": "/home/pi/yocto/layers/openembedded-core/bitbake/bin/bitbake",
+    "files.associations": {
+        "Kconfig": "tex"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "C_Cpp.default.compilerPath": "",
+    "cmake.configureOnEdit": false,
+}
