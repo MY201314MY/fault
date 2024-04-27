@@ -31,6 +31,18 @@ int _example_fault_t2(const struct shell *sh, size_t argc, char *argv[])
 	return 0;
 }
 
+int _example_fault_t3(const struct shell *sh, size_t argc, char *argv[])
+{
+    LOG_DBG("%s", CONFIG_KERNEL_ENTRY);
+
+    extern char __bss_start[];
+    extern char __bss_end[];
+    LOG_DBG("%p", __bss_start);
+    LOG_DBG("%p", __bss_end);
+    
+	return 0;
+}
+
 SHELL_STATIC_SUBCMD_SET_CREATE(fault_commands,
 	SHELL_CMD(t1, NULL,
 		"usage fault t1",
@@ -38,6 +50,9 @@ SHELL_STATIC_SUBCMD_SET_CREATE(fault_commands,
     SHELL_CMD(t2, NULL,
 		"usage fault t2",
 		_example_fault_t2),
+    SHELL_CMD(t3, NULL,
+		"usage fault t3",
+		_example_fault_t3),
 	SHELL_SUBCMD_SET_END
 );
 
